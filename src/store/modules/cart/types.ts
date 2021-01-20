@@ -11,4 +11,5 @@ export type ICartItem = {
 
 export type ICartState = {
   items: ICartItem[];
+  failedStockCheck: number[];
 };
